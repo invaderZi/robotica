@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli -- -j8 -l8
+[0.047s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.047s] [ 75%] Built target server
+[2.972s] [100%] [32m[1mLinking CXX executable client[0m
+[3.108s] [100%] Built target client
+[3.116s] Invoked command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli -- -j8 -l8
+[3.125s] Invoking command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli
+[3.129s] -- Install configuration: ""
+[3.130s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.130s] -- Installing: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.131s] -- Set runtime path of "/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.131s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.132s] -- Installing: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.132s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.132s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.132s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.132s] -- Up-to-date: /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.133s] Invoked command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_B/build/cpp_srvcli
