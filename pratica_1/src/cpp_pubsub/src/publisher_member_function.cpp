@@ -6,3 +6,7 @@
 #include "std_msgs/msg/string.hpp"
 using namespace std::chrono_literals;
 
+class MinimalPublisher : public rclcpp::Node
+{
+    
+};
