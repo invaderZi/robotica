@@ -1,4 +1,0 @@
-Invoking command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces -- -j8 -l8
-Invoked command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces -- -j8 -l8
-Invoking command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces
-Invoked command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces

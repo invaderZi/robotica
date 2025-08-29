@@ -1,2 +1,0 @@
-Invoking command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces -- -j8 -l8
-Invoked command in '/home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zi/Desktop/robotica/PRATICAS/pratica_1/PARTE_C/build/more_interfaces -- -j8 -l8
