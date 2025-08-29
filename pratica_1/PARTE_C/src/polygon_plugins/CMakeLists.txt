@@ -5,7 +5,6 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_ros REQUIRED)
 find_package(polygon_base REQUIRED)
@@ -38,11 +37,6 @@ install(
   RUNTIME DESTINATION bin
 )
 
-# # Instala o arquivo de descrição do plugin
-# install(
-#   FILES plugins.xml
-#   DESTINATION share/${PROJECT_NAME}
-# )
 
 pluginlib_export_plugin_description_file(polygon_base plugins.xml)
 

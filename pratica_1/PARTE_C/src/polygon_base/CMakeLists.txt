@@ -19,10 +19,6 @@ ament_target_dependencies(
   "pluginlib"
 )
 
-# install(
-#   DIRECTOR²Y include/
-#   DESTINATION include
-# )
 
 install(
   DIRECTORY include/
