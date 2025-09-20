@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Behavior Tree para navegação até uma pose -->
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <RecoveryNode number_of_retries="6" name="NavigateRecovery">
+      <PipelineSequence name="NavigateWithReplanning">
+        <RateController hz="1.0">
+          <ComputePathToPose goal="{goal}" path="{path}" planner_id="GridBased"/>
+        </RateController>
+        <FollowPath path="{path}" controller_id="FollowPath"/>
+      </PipelineSequence>
+      <ReactiveFallback name="RecoveryFallback">
+        <GoalUpdated/>
+        <RoundRobin name="RecoveryActions">
+          <Sequence name="ClearLocalCostmap-Spin">
+            <ClearEntirelyLocalCostmap service_name="local_costmap/clear_entirely_local_costmap"/>
+            <Spin spin_duration="2.0"/>
+          </Sequence>
+          <Sequence name="ClearLocalCostmap-BackUp">
+            <ClearEntirelyLocalCostmap service_name="local_costmap/clear_entirely_local_costmap"/>
+            <BackUp backup_speed="-0.15" backup_duration="2.0"/>
+          </Sequence>
+          <Wait wait_duration="5.0"/>
+        </RoundRobin>
+      </ReactiveFallback>
+    </RecoveryNode>
+  </BehaviorTree>
+</root>
