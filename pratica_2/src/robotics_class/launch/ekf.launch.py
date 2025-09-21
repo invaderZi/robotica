@@ -9,14 +9,25 @@ from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
+    # robot_localization_node = Node(
+    #     package='robot_localization',
+    #     executable='ekf_node',
+    #     name='ekf_filter_node',
+    #     output='screen',
+    #     parameters=[os.path.join(get_package_share_directory("robotics_class"), 'params', 'ekf.yaml')],
+    #     remappings=[('/odometry/filtered', '/jetauto/odometry/filtered')]
+
+    # )
     robot_localization_node = Node(
         package='robot_localization',
         executable='ekf_node',
         name='ekf_filter_node',
         output='screen',
         parameters=[os.path.join(get_package_share_directory("robotics_class"), 'params', 'ekf.yaml')],
-        remappings=[('/odometry/filtered', '/jetauto/odometry/filtered')]
-
+        remappings=[
+            ('odometry/filtered', '/jetauto/odometry/filtered'),
+            ('/odometry/filtered', '/jetauto/odometry/filtered')  # Duplo mapeamento para garantir
+        ]
     )
 
     ld = LaunchDescription()
